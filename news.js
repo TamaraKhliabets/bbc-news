@@ -4,7 +4,7 @@ function addNews() {
 		.then(
 			function(response) {
 				if(response.status != 200) {
-					console.log('Looks like there was a problem. Status Code: ' +  
+					console.log('Sorry, something went wrong. Status Code: ' +  
           			response.status);
           			return;
 				}
