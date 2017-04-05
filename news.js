@@ -14,7 +14,7 @@ function addNews() {
 		.then(function(json) {
 			let content = "";
 			let articles = json.articles;
-			articles.forEach(el => {
+			articles.map(el => {
 				content += "<div class='news'>" +
 							`<div class='title'>${el.title}</div>` +
 							`<div class='description'>${el.description}</div>` +
