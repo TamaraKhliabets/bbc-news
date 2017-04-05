@@ -1,0 +1,54 @@
+.header {
+	font-size: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.bbc {
+	color: white;
+	background-color: black;
+	margin: 3px;
+	width: 46px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.news {
+	margin: 10px 0;
+	padding: 5px;
+}
+
+.title {
+	font-size: 27px;
+	font-weight: bold;
+}
+
+.url {
+	margin-bottom: 10px;
+}
+
+.url a{
+	color: #33334d;
+	font-style: italic;
+}
+
+.img {
+	margin-bottom: 25px;
+}
+
+.footer {
+	text-align: right;
+}
+
+.footer a {
+	color: #47476b;
+}
